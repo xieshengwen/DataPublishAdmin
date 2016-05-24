@@ -1,0 +1,388 @@
+/*
+Author:    xsw
+Date:      2016-02-14
+Version:   1.0
+*/
+/*table of contents
+1.  table
+2.  pagination
+3.  btn
+4.  dropdown-menu
+5.  aliyun-console-font
+6.  form-control
+7.  console-title
+8.
+9.
+10.
+20. other
+*/
+
+
+/*------------- 1. table -----------*/
+/*.console-sub-title+.table {
+	margin-top: 0px
+}*/
+.table-header {
+	border: 1px solid #e1e6eb;
+	width: 100%;
+	z-index: 1;
+	margin-bottom: -1px;
+	padding: 8px;
+	line-height: 32px;
+	display: table
+}
+.table-header+.table {
+	margin-top: 0px
+}
+.table {
+	background: #FFF;
+	font-size: 12px;
+	border-top: 1px solid #e1e6eb;
+	margin-top: 8px;
+	border: 1px solid #e1e6eb
+}
+.table thead tr th {
+	padding: 8px 8px;
+	font-weight: normal;
+	color: #999;
+	border-bottom: 1px solid #e1e6eb;
+	background-color: #F5F6FA
+}
+.table thead tr th a.dropdown-toggle {
+	color: #999
+}
+.table thead tr th .dropdown.open a {
+	color: #333
+}
+.table tbody tr td {
+	padding: 12px 8px;
+	border-top: 0px;
+	border-bottom: 1px solid #e1e6eb;
+	vertical-align: middle
+}
+.table tbody tr td p {
+	margin-bottom: 0px
+}
+.table tfoot tr td {
+	padding: 12px 8px;
+	border-bottom: 1px solid #e1e6eb;
+	vertical-align: middle
+}
+.table .text-right .dropdown-menu {
+	text-align: left;
+	left: auto;
+	right: 0px
+}
+.table-hover tbody tr:hover td {
+	background-color: #F9F9FA
+}
+/*------------- 2. pagination -----------*/
+.pagination {
+	margin: 0px;
+	/* vertical-align: middle; */
+	vertical-align: top;
+	border-radius: 0px
+}
+.pagination li a,.pagination li span {
+	height: 32px;
+	line-height: 20px;
+	color: #333;
+	cursor: pointer;
+	border-color: #CCC
+}
+.pagination li a:hover {
+	color: #FFF;
+	background-color: #28B5D6;
+	border-color: #28B5D6
+}
+.pagination li span {
+	color: #999
+}
+.pagination li span:hover {
+	background: none
+}
+.pagination li:first-child>a,.pagination li:first-child>span {
+	border-radius: 0px
+}
+.pagination li:last-child>a,.pagination li:last-child>span {
+	border-radius: 0px
+}
+.pagination li.active a,.pagination li.active span {
+	background-color: #09C;
+	border: 1px solid #09C
+}
+.pagination li.active a:hover,.pagination li.active span:hover {
+	background-color: #09C;
+	border: 1px solid #09C
+}
+.pagination-info {
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	zoom: 1;
+	*display: inline;
+	padding: 0px 16px;
+	color: #888
+}
+/*------------- 3. btn -----------*/
+.btn {
+	font-size: 12px;
+	border-radius: 0px;
+	padding: 8px 16px;
+	height: 32px;
+	line-height: 14px
+}
+.btn-default {
+	color: #333;
+	border: 1px solid #ddd;
+	background-color: #f7f7f7
+}
+.btn-default:active {
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.125);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.125)
+}
+.btn-default:focus {
+	color: #333;
+	border: 1px solid #ddd;
+	background-color: #f7f7f7;
+	outline: none
+}
+.btn-default:hover {
+	color: #333;
+	border: 1px solid #ddd;
+	background-color: #fff
+}
+/*.btn-primary {
+	color: #fff;
+	border: 1px solid #09c;
+	background-color: #09c
+}
+.btn-primary:active {
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.125);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.125)
+}
+.btn-primary:focus {
+	color: #fff;
+	border: 1px solid #09c;
+	background-color: #09c;
+	outline: none
+}
+.btn-primary:hover {
+	color: #fff;
+	border: 1px solid #28b5d6;
+	background-color: #28b5d6
+}*/
+/*------------- 4. dropdown-menu ----------- */
+/*.dropdown-menu {
+	font-size: 12px;
+	border-radius: 0px;
+	padding: 0px;
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.2)
+}*/
+ .dropdown-menu li a {
+	padding: 7px 16px
+}
+
+.dropdown-menu .divider {
+	margin: 0px 0px
+} 
+
+
+/*------------- 5. aliyun-console-font -----------*/
+@font-face {
+	font-family:'aliyun-console-font';
+	src:url("../fonts/aliyun-console-font.eot?rspaeo");
+	src:url("../fonts/aliyun-console-font.eot?rspaeo#iefix") format("embedded-opentype"),
+	    url("../fonts/aliyun-console-font.ttf?rspaeo") format("truetype"),
+	    url("../fonts/aliyun-console-font.woff?rspaeo") format("woff"),
+	    url("../fonts/aliyun-console-font.svg?rspaeo#aliyun-console-font") format("svg");
+	    font-weight:normal;
+	    font-style:normal
+}[class^="icon-"],[class*=" icon-"] {
+	font-family: 'aliyun-console-font' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+.icon-pen:before {
+	content: "\e652"
+}
+.icon-yes:before {
+	content: "\e678"
+}
+.icon-setup:before {
+	content: "\e662"
+}
+.icon-help-2:before {
+	content: "\e62d"
+}
+
+.icon-help:before {
+	content: "\e62e"
+}
+/*------------- 6. form-control -----------*/
+.form-control {
+	height: 32px;
+	border-radius: 0px;
+	padding: 6px;
+	-webkit-transition: none;
+	transition: none;
+	font-size: 12px
+}
+.form-control:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+.form-control[size],.form-control[cols],.form-control.autosize {
+	width: auto
+}
+.form-control.inline {
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align: auto;
+	zoom: 1;
+	*display: inline
+}
+
+/*------------- 7. console-title -----------*/
+.console-title {
+	padding: 16px 0px;
+	min-height: 70px
+}
+.console-title .nav-pills {
+	display: inline-block;
+	vertical-align: middle
+}
+.console-title h1,.console-title h2,.console-title h3,.console-title h4,.console-title h5,.console-title h6 {
+	display: inline-block;
+	text-indent: 8px;
+	border-left: 2px solid #88B7E0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 8px
+}
+.console-title h1 {
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+.console-title h2 {
+	margin-top: 2px;
+	margin-bottom: 2px
+}
+.console-title h3 {
+	margin-top: 4px;
+	margin-bottom: 4px
+}
+.console-title h4 {
+	margin-top: 6px;
+	margin-bottom: 6px
+}
+.console-title h5 {
+	margin-top: 8px;
+	margin-bottom: 8px
+}
+.console-title-border {
+	border-bottom: 1px solid #DDD
+}
+.console-sub-title {
+	position: relative;
+	padding-left: 16px;
+	margin-bottom: -1px;
+	display: table;
+	width: 100%;
+	z-index: 1;
+	height: 40px;
+	border: 1px solid #E1E6EB;
+	border-left: 3px solid #778;
+	background-color: #F4F5F9
+}
+.console-sub-title h5 {
+	color: #666;
+	font-size: 14px
+}
+.console-box-border {
+	border: 1px solid #E1E6EB
+}
+
+
+
+
+
+
+/*------------- 20. other -----------*/
+.rds-list-up-button {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px;
+    position: absolute;
+    right: 16px;
+    top: 0
+}
+.rds-list-instance-name-td{
+    position: static;
+}
+.rds-list-simple-grid th {
+    vertical-align: middle !important;
+}
+
+
+.c-texttrimmer-pen {
+    font-size: 12px;
+    height: 18px;
+    margin-left: 6px;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+    width: 18px;
+}
+
+
+/**/
+.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
+	color: #999
+}
+
+label.control-label {
+	font-weight: normal;
+	font-size: 12px;
+	color: #666
+}
+
+.form-inline .form-group {
+	margin: 4px 8px 4px 0px
+}
+
+.form-inline .form-control {
+	width: auto
+}
+
+.form-inline .input-group-btn {
+	width: auto
+}
+
+
+
+.spinbox .spinbox-buttons,.spinbox.spinbox-horizontal .spinbox-buttons > .btn{
+	height: 32px;
+}
+.spinbox .btn{ 
+	padding: 0;
+}
+.spinbox.spinbox-horizontal .spinbox-down i,.spinbox.spinbox-horizontal .spinbox-up i{ 
+	top:-2px;
+}
+.spinbox .btn:focus, .spinbox .btn:active{
+	outline:none;
+}
+
+.select2-container .select2-choice .select2-arrow b{
+	line-height: 32px;
+}
+
